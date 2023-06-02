@@ -24,3 +24,7 @@ code {
 .show {
   display: block;
 }
+
+.react-bars:hover {
+  color: aqua;
+}
