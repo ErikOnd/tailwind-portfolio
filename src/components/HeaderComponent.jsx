@@ -23,7 +23,7 @@ const HeaderComponent = () => {
   };
 
   return (
-    <nav className=" bg-gray-900 sticky top-0 w-full">
+    <nav className="z-20 bg-gray-900 sticky top-0 w-full">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center h-16">
           {isSmallScreen ? (
@@ -35,10 +35,7 @@ const HeaderComponent = () => {
             </span>
           ) : (
             <div className="flex space-x-20">
-              <a
-                href="test"
-                className="text-white hover:text-emerald-500 bg-gray-700"
-              >
+              <a href="test" className="text-white hover:text-emerald-500">
                 HOME
               </a>
               <a href="test" className="text-white hover:text-emerald-500">
@@ -56,7 +53,7 @@ const HeaderComponent = () => {
       </div>
 
       {isSmallScreen && showLinks && (
-        <div className="bg-gray-900">
+        <div className="backdrop-blur-sm">
           <a
             href="test"
             className="block text-white hover:text-emerald-500 py-2 px-4"

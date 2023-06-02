@@ -4,33 +4,54 @@ import porfileImg from "../assets/profile-img.jpg";
 
 const AboutMeComponent = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen w-screen">
       <HeaderComponent></HeaderComponent>
 
-      <div className="z-10 container mx-auto max-w-5xl px-5">
+      <div className="z-10 container mx-auto max-w-5xl px-10">
         <div className="text-gray-700 text-5xl font-black my-20 justify-center underline">
           ABOUT
         </div>
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:justify-between  mb-20">
-          <div className=" flex flex-col card bg-emerald-500 p-4 rounded-md h-60 w-40 items-center justify-starttransition duration-300 transform hover:-translate-y-2 hover:shadow-md">
-            <p className="font-black text-gray-800 text-3xl ">React</p>
-            <p className=" text-gray-800 mt-2 text-sm">
-              My favourite JavaScript library for frontend development.
-            </p>
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:justify-between mb-20">
+          <div className=" flex flex-col shadow-md  p-4 rounded-md h-60 w-60 items-center justify-starttransition duration-300 transform hover:-translate-y-2 hover:shadow-md ">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              alt="react-logo"
+              className="h-20"
+            />
+            <div className="mt-auto">
+              <p className="font-black text-gray-800 text-3xl ">React</p>
+              <p className=" text-gray-800 mt-2 text-sm">
+                My favourite JavaScript library for frontend development.
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col card bg-emerald-500 p-4 rounded-md h-60 w-40 items-center justify-start transition duration-300 transform hover:-translate-y-2 hover:shadow-md">
-            <p className="font-black text-gray-800 text-3xl ">Node.js</p>
-            <p className=" text-gray-800 mt-2 text-sm">
-              My go-to runtime environment for server-side JavaScript
-              development.
-            </p>
+          <div className="flex flex-col shadow-md p-4 rounded-md h-60 w-60 items-center justify-start transition duration-300 transform hover:-translate-y-2 hover:shadow-md">
+            <img
+              src="https://logowik.com/content/uploads/images/nodejs.jpg"
+              alt="react-logo"
+              className="h-20"
+            />
+            <div className="mt-auto">
+              <p className="font-black text-gray-800 text-3xl ">Node.js</p>
+              <p className=" text-gray-800 mt-2 text-sm">
+                My go-to runtime environment for server-side JavaScript
+                development.
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col card bg-emerald-500 p-4 rounded-md h-60 w-40 items-center justify-start transition duration-300 transform hover:-translate-y-2 hover:shadow-md">
-            <p className="font-black text-gray-800 text-3xl ">Tailwind</p>
-            <p className=" text-gray-800 mt-2 text-sm">
-              My preferred utility-first CSS framework for building modern and
-              responsive web interfaces.
-            </p>
+          <div className="flex flex-col shadow-md  p-4 rounded-md h-60 w-60 items-center justify-start transition duration-300 transform hover:-translate-y-2 hover:shadow-md">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+              alt="react-logo"
+              className="h-20"
+            />
+            <div className="mt-auto">
+              <p className="font-black text-gray-800 text-3xl ">Tailwind</p>
+              <p className=" text-gray-800 mt-2 text-sm">
+                My preferred utility-first CSS framework for building modern and
+                responsive web interfaces.
+              </p>
+            </div>
           </div>
         </div>
 
