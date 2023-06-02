@@ -25,6 +25,11 @@ code {
   display: block;
 }
 
-.react-bars:hover {
-  color: aqua;
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.my-word-btn:hover .arrow-icon {
+  transform: rotate(90deg);
 }

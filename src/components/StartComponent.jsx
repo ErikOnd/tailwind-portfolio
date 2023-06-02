@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const StartComponent = () => {
   return (
@@ -9,10 +10,10 @@ const StartComponent = () => {
         <br /> I'm a full-stack developer.
       </div>
       <button
-        className=" z-[1] bg-transparent text-white hover:text-gray-800 py-2 px-4 border
-       border-white mt-10 text-xl hover:bg-emerald-500 transition-colors duration-300 hover:border-emerald-500"
+        className="z-[1] bg-transparent text-white hover:text-gray-800 py-2 px-4 border
+       border-white mt-10 text-xl hover:bg-emerald-500 transition-colors duration-300 hover:border-emerald-500 my-word-btn"
       >
-        View my work
+        <span>View my work</span> <FaArrowRight className="arrow-icon" />
       </button>
     </div>
   );
