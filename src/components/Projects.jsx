@@ -3,15 +3,15 @@ import workoutTrackerImg from "../assets/workoutTracker.png";
 const Projects = () => {
   return (
     <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:justify-between mb-20">
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow   relative h-[500px]">
         <img className="rounded-t-lg" src={workoutTrackerImg} alt="" />
 
         <div className="p-5">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
             Workout Tracker
           </h5>
 
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700 ">
             My biggest project yet. An application that allows you to create
             your individual workouts and track them on the website or the
             MyWorkoutTracker App in the App Store.
@@ -20,7 +20,7 @@ const Projects = () => {
             <a
               href="https://my-workout-tracker.com"
               target="_blank"
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-500 rounded-lg focus:ring-4 mb-5"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-500 rounded-lg focus:ring-4 mb-5 "
             >
               Live Preview
             </a>
@@ -56,15 +56,15 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow relative h-[500px]">
         <img className="rounded-t-lg" src={workoutTrackerImg} alt="" />
 
         <div className="p-5">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
             Workout Tracker
           </h5>
 
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700 ">
             My biggest project yet. An application that allows you to create
             your individual workouts and track them on the website or the
             MyWorkoutTracker App in the App Store.
@@ -95,15 +95,15 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative h-[500px]">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow   relative h-[500px]">
         <img className="rounded-t-lg" src={workoutTrackerImg} alt="" />
 
         <div className="p-5">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
             Workout Tracker
           </h5>
 
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700 ">
             My biggest project yet. An application that allows you to create
             your individual workouts and track them on the website or the
             MyWorkoutTracker App in the App Store.

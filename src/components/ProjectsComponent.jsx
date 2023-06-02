@@ -8,7 +8,12 @@ const ProjectsComponent = () => {
         <div className="text-gray-700 text-5xl font-bold my-20 justify-center underline section-header">
           PROJECTS
         </div>
-        <Projects></Projects>
+        <div className="flex flex-col">
+          <Projects></Projects>
+          <div className="hover:underline cursor-pointer text-2xl ">
+            <a href="https://github.com/ErikOnd">Visit my GitHub account</a>
+          </div>
+        </div>
       </div>
     </div>
   );
