@@ -23,7 +23,7 @@ const HeaderComponent = () => {
   };
 
   return (
-    <nav className="z-20 bg-gray-900 sticky top-0 w-full">
+    <nav className=" bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center h-16">
           {isSmallScreen ? (

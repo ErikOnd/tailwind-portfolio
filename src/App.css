@@ -1,7 +1,14 @@
 .App {
   text-align: center;
-  overflow-y: hidden;
+}
+body {
   overflow-x: hidden;
+}
+
+nav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 20 !important;
 }
 
 .App-logo {
