@@ -33,3 +33,7 @@ code {
 .my-word-btn:hover .arrow-icon {
   transform: rotate(90deg);
 }
+
+.section-header {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,12 +1,11 @@
 import React from "react";
-import HeaderComponent from "./HeaderComponent";
 import porfileImg from "../assets/profile-img.jpg";
 
 const AboutMeComponent = () => {
   return (
     <div className="flex flex-col min-h-screen min-w-screen">
       <div className="z-10 container mx-auto max-w-5xl px-10">
-        <div className="text-gray-700 text-5xl font-black my-20 justify-center underline">
+        <div className="text-gray-700 text-5xl font-bold my-20 justify-center underline section-header">
           ABOUT
         </div>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:justify-between mb-20">
@@ -53,7 +52,7 @@ const AboutMeComponent = () => {
           </div>
         </div>
 
-        <div className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl my-5 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out">
+        <div className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl my-5 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out mb-20">
           <div className="md:flex">
             <div className="md:flex-shrink-0">
               <img
@@ -63,7 +62,7 @@ const AboutMeComponent = () => {
               />
             </div>
             <div className="p-8">
-              <p className="block mt-1 text-lg leading-tight font-medium text-emerald-500">
+              <p className="block mt-1 text-3xl leading-tight font-medium text-emerald-500">
                 Hey there!
               </p>
               <p className="mt-2 text-gray-800">
