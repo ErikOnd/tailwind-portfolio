@@ -35,16 +35,16 @@ const HeaderComponent = () => {
             </span>
           ) : (
             <div className="flex space-x-20">
-              <a href="test" className="text-white hover:text-emerald-500">
+              <a href="#start" className="text-white hover:text-emerald-500">
                 HOME
               </a>
-              <a href="test" className="text-white hover:text-emerald-500">
+              <a href="#about" className="text-white hover:text-emerald-500">
                 ABOUT
               </a>
-              <a href="test" className="text-white hover:text-emerald-500">
+              <a href="#projects" className="text-white hover:text-emerald-500">
                 PROJECTS
               </a>
-              <a href="test" className="text-white hover:text-emerald-500">
+              <a href="#contact" className="text-white hover:text-emerald-500">
                 CONTACT
               </a>
             </div>
@@ -55,25 +55,25 @@ const HeaderComponent = () => {
       {isSmallScreen && showLinks && (
         <div className="backdrop-blur-sm">
           <a
-            href="test"
+            href="#start"
             className="block text-white hover:text-emerald-500 py-2 px-4"
           >
             HOME
           </a>
           <a
-            href="test"
+            href="#about"
             className="block text-white hover:text-emerald-500 py-2 px-4"
           >
             ABOUT
           </a>
           <a
-            href="test"
+            href="#projects"
             className="block text-white hover:text-emerald-500 py-2 px-4"
           >
             PROJECTS
           </a>
           <a
-            href="test"
+            href="#contact"
             className="block text-white hover:text-emerald-500 py-2 px-4"
           >
             CONTACT

@@ -5,6 +5,7 @@ import workoutTrackerImg from "../assets/workoutTracker.png";
 import workoutTrackerImg2 from "../assets/workoutTracker2.png";
 import workoutTrackerImg3 from "../assets/workoutTracker3.png";
 import workoutTrackerImg4 from "../assets/workoutTracker4.png";
+import workoutTrackerImg5 from "../assets/workoutTracker5.png";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 
@@ -62,7 +63,7 @@ const Projects = () => {
 
   return (
     <Carousel
-      className="mb-20"
+      className="mb-10"
       showArrows={true}
       showThumbs={false}
       showIndicators={false}
@@ -92,7 +93,7 @@ const Projects = () => {
       >
         <img
           src={workoutTrackerImg2}
-          alt="WhatsApp"
+          alt="workoutTracker"
           className="mx-auto w-full h-auto rounded-xl"
         />
       </div>
@@ -103,7 +104,7 @@ const Projects = () => {
       >
         <img
           src={workoutTrackerImg3}
-          alt="WhatsApp"
+          alt="workoutTracker"
           className="mx-auto w-full h-auto rounded-xl"
         />
       </div>
@@ -114,7 +115,18 @@ const Projects = () => {
       >
         <img
           src={workoutTrackerImg4}
-          alt="WhatsApp"
+          alt="workoutTracker"
+          className="mx-auto w-full h-auto rounded-xl"
+        />
+      </div>
+      <div
+        className="group relative"
+        onMouseEnter={() => handleMouseEnter(1)}
+        onMouseLeave={handleMouseLeave}
+      >
+        <img
+          src={workoutTrackerImg5}
+          alt="workoutTracker"
           className="mx-auto w-full h-auto rounded-xl"
         />
       </div>

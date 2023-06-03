@@ -7,6 +7,10 @@
   src: url("./UnivaNova-Regular.ttf") format("truetype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "UnivaNova-Regular", -apple-system, BlinkMacSystemFont,

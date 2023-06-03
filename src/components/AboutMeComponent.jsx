@@ -3,7 +3,7 @@ import porfileImg from "../assets/profile-img.jpg";
 
 const AboutMeComponent = () => {
   return (
-    <div className="flex flex-col min-h-screen min-w-screen">
+    <div className="flex flex-col min-h-screen min-w-screen" id="about">
       <div className="z-10 container mx-auto max-w-5xl px-10">
         <div className="text-gray-700 text-5xl font-bold my-20 justify-center underline section-header max-sm:text-3xl">
           ABOUT
