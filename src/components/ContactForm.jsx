@@ -1,10 +1,11 @@
 import React from "react";
+import FooterComponent from "./FooterComponent";
 
 const ContactForm = () => {
   return (
-    <div className="min-h-screen min-w-screen bg-gray-800">
+    <div className="relative  min-w-screen bg-gray-800">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <div className="text-white text-5xl font-bold mb-20 justify-center underline section-header">
+        <div className="text-white text-5xl font-bold mb-20 justify-center underline section-header max-sm:text-3xl">
           Contact
         </div>
 
@@ -52,6 +53,7 @@ const ContactForm = () => {
           </button>
         </form>
       </div>
+      <FooterComponent />
     </div>
   );
 };

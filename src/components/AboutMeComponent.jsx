@@ -5,7 +5,7 @@ const AboutMeComponent = () => {
   return (
     <div className="flex flex-col min-h-screen min-w-screen">
       <div className="z-10 container mx-auto max-w-5xl px-10">
-        <div className="text-gray-700 text-5xl font-bold my-20 justify-center underline section-header">
+        <div className="text-gray-700 text-5xl font-bold my-20 justify-center underline section-header max-sm:text-3xl">
           ABOUT
         </div>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:justify-between mb-20">
