@@ -69,7 +69,7 @@ const FooterComponent = () => {
         </button>
       </div>
       <div className="text-sm pb-10">
-        ERIK ONDRA <span className="text-emerald-500 ">©2015</span>
+        ERIK ONDRA <span className="text-emerald-500 ">©2023</span>
       </div>
     </div>
   );

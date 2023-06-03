@@ -11,7 +11,7 @@ const ProjectsComponent = () => {
         <div className="text-gray-700 text-5xl font-bold mt-20 mb-10 justify-center underline section-header max-sm:text-3xl">
           PROJECTS
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col px-5">
           <p className="mb-10">
             Introducing my biggest project to date: the{" "}
             <a
@@ -21,7 +21,7 @@ const ProjectsComponent = () => {
             >
               MyWorkoutTracker
             </a>{" "}
-            website. This remarkable app, built with React, TypeScript, and
+            website. This application, built with React, TypeScript, and
             Node.js, allows you to effortlessly track your workouts, import
             routines from other users, customize them to fit your preferences,
             and visualize your progress through insightful charts.
