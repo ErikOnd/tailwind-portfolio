@@ -53,7 +53,7 @@ const HeaderComponent = () => {
       </div>
 
       {isSmallScreen && showLinks && (
-        <div className="backdrop-blur-sm">
+        <div className="bg-gray-800">
           <a
             href="#start"
             className="block text-white hover:text-emerald-500 py-2 px-4"
