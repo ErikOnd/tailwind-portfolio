@@ -147,6 +147,7 @@ const ContactForm = () => {
         pauseOnHover
         theme="light"
       />
+      <FooterComponent></FooterComponent>
     </div>
   );
 };
